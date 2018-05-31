@@ -82,6 +82,7 @@ medal-bling-l --- {"width":66,"height":66}
 ##### 需求：宝箱1.0
 设计大佬会给一个宝箱的svga，这边需要做的就是通过设计大佬给一个imagekey+svga的setImage去设置宝箱开处理的礼物图片。
 ##### 动画gif如下：
+![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-4.gif)
 ##### 部分代码如下：
 ```
 var parser = new svgaplayerweb.Parser('#canvas')
@@ -127,6 +128,11 @@ function svgaInitial(giftSrc){
 
 ##### 需求：宝箱1.1
 宝箱部分礼物需要开出图片，一部分需要开出特效，这个时候就比较为难，最后决定的解决方案是在宝箱里面放置了好几段特效，分别是：宝箱打开+普通礼物（1.0）+宝箱打开+大礼物特效*N（这样导致了一个特效包最大的差不多2M）
+##### 动画gif如下：
+1. 开出图片
+![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-4.gif)
+2. 开出动画特效
+![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-5.gif)
 ##### 部分代码如下：
 ```
 //相对于1.0的版本，1.1的版本多了好几个svga文件，多了以下判断逻辑，通过参数去觉得播放哪一个svga
@@ -148,6 +154,14 @@ else if(giftId == 9){
 宝箱需要开出的礼物有不同的类别（最大五种）+不同的数量，如果这个效果按照1.1的形式去做的话，得需要有五段不一样的svga，那么整个特效包的大小肯定会超过2M。在去看文档的时候，发现了startAnimationWithRange这个方法，播放svga动画的某一个区间的动画，但还是满足不了，无奈之下fork一下仓库，自己实现一些功能
 1. 多段拼接播放（startAnimationWithRangeDouble）
 2. 特殊字体，字体颜色渐变，阴影的支持
+
+##### 动画gif如下：
+
+![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-1.gif)
+
+![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-2.gif)
+
+![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-3.gif)
 ```
 player.setText({
     text:form,
