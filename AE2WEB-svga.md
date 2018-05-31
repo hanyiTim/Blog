@@ -129,9 +129,8 @@ function svgaInitial(giftSrc){
 ##### 需求：宝箱1.1
 宝箱部分礼物需要开出图片，一部分需要开出特效，这个时候就比较为难，最后决定的解决方案是在宝箱里面放置了好几段特效，分别是：宝箱打开+普通礼物（1.0）+宝箱打开+大礼物特效*N（这样导致了一个特效包最大的差不多2M）
 ##### 动画gif如下：
-1. 开出图片
 ![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-4.gif)
-2. 开出动画特效
+
 ![image](https://github.com/hanyiTim/Blog/blob/master/static/images/animation-5.gif)
 ##### 部分代码如下：
 ```
