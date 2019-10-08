@@ -7,5 +7,5 @@
 * [基于引用场景聊聊charles](https://github.com/hanyitim/Blog/issues/1)
 * [你以为的devtools是你以为的devtools吗？](https://github.com/hanyitim/Blog/issues/2)
 ### 网络协议/安全
-* [关于referrer](https://github.com/hanyitim/Blog/issues/4)
+* [关于referrer](https://github.com/hanyitim/Blog/issues/5)
 
