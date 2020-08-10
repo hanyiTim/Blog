@@ -9,4 +9,5 @@
 * [你以为的devtools是你以为的devtools吗？](https://github.com/hanyitim/Blog/issues/2)
 ### 网络协议/安全
 * [关于referrer](https://github.com/hanyitim/Blog/issues/5)
+* [跨域方案整理](https://github.com/hanyitim/Blog/issues/8)
 
