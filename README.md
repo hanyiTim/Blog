@@ -1,6 +1,7 @@
 > 从手头上的一点点小小的东西开始整理，一步一步往上爬，随着时间的流逝，总有一天肯定能成为一只老蜗牛🐌，哈哈。
 ### javascript
 * [正则表达式](https://github.com/hanyitim/Blog/issues/9)
+* [跨域方案整理](https://github.com/hanyitim/Blog/issues/10)
 ### css/html
 * [基于z-index重新认识“层叠上下文”](https://github.com/hanyitim/Blog/issues/6)
 * [h5适配方案](https://github.com/hanyitim/Blog/issues/4)
@@ -11,4 +12,6 @@
 ### 网络协议/web安全
 * [关于referrer](https://github.com/hanyitim/Blog/issues/5)
 * [跨域方案整理](https://github.com/hanyitim/Blog/issues/8)
+### 小技巧
+* [app下载链接适配](https://github.com/hanyitim/Blog/issues/11)
 
