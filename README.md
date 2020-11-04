@@ -8,7 +8,7 @@
 ### 工具
 * [基于应用场景聊聊charles](https://github.com/hanyitim/Blog/blob/master/content/%E5%9F%BA%E4%BA%8E%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E8%81%8A%E8%81%8Acharles.md)
 * [你以为的devtools是你以为的devtools吗？](https://github.com/hanyitim/Blog/issues/2)
-### 网络协议/安全
+### 网络协议/web安全
 * [关于referrer](https://github.com/hanyitim/Blog/issues/5)
 * [跨域方案整理](https://github.com/hanyitim/Blog/issues/8)
 
