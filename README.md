@@ -10,10 +10,19 @@
 ### 工具
 * [基于应用场景聊聊charles](https://github.com/hanyitim/Blog/blob/master/content/%E5%9F%BA%E4%BA%8E%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E8%81%8A%E8%81%8Acharles.md)
 * [你以为的devtools是你以为的devtools吗？](https://github.com/hanyitim/Blog/issues/2)
+* [webpack](https://github.com/hanyitim/Blog/issues/19)
+### 优化，永远滴神
+* gzip,deflate,brotli
+* [啊link](https://github.com/hanyitim/Blog/issues/13)
+### 设计模式
+* [发布订阅模式与观察者模式](https://github.com/hanyitim/Blog/issues/20)
 ### 网络协议/web安全
 * [关于referrer](https://github.com/hanyitim/Blog/issues/5)
 * [跨域方案整理](https://github.com/hanyitim/Blog/issues/8)
 * [XSS/CSRF/CSP/ClickJacking](https://github.com/hanyitim/Blog/issues/3)
-### 小技巧
+* [cookie的SameSite与HttpOnly](https://github.com/hanyitim/Blog/issues/16)
+### 落地实践
 * [app下载链接适配](https://github.com/hanyitim/Blog/issues/11)
+* [h5支付踩坑记](https://github.com/hanyitim/Blog/issues/17)
+* [coding](https://github.com/hanyitim/Blog/issues/18)
 
